@@ -65,8 +65,8 @@ export default function Payouts() {
           </div>
         </div>
         <div className="px-10 flex gap-6">
-          <Cards head="Online orders" value="231" />
-          <Cards head="Amount received" value="₹23,92,312.19" />
+          <Cards head="Online orders" value="231" bgColor="bg-blue-500"  />
+          <Cards head="Amount received" value="₹23,92,312.19" bgColor="white"/>
         </div>
         <h3 className="text-xl font-medium py-7 px-10">
           Transactions | This Month
